@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-50;
+}
+
+nav ul li {
+  @apply text-gray-300 hover:text-gray-50 transition-colors;
+}
+
+.title {
+  @apply text-3xl lg:text-5xl font-bold text-sky-400;
+}
+
+.subtitle {
+  @apply lg:text-xl text-gray-400;
+}
+
+.input {
+  @apply h-10 bg-gray-50 rounded-md px-4 text-sm text-gray-950 w-full placeholder:text-gray-500;
+}
+
+.textarea {
+  @apply bg-gray-50 rounded-md p-4 text-sm text-gray-950 w-full h-40 resize-none placeholder:text-gray-500;
+}
