@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="border-b border-gray-800">
-      <div className="py-32 px-4 flex-col-reverse  gap-16 flex items-center justify-between  max-w-[1200px] mx-auto">
+      <div className="py-32 px-4 flex-col-reverse lg:flex-row  gap-16 flex items-center justify-between  max-w-[1200px] mx-auto">
         <div className="space-y-4">
           <h2 className="title">Sobre nós</h2>
           <p className="subtitle max-w-[520px]">
