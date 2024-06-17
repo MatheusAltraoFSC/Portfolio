@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Portfólio Full Stack Week
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+    <img src="https://i.pinimg.com/originals/ad/c7/b8/adc7b879d16260be6c498ee026987c82.png" alt="Kerdos">
+</p>
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é um portfólio pessoal desenvolvido utilizando Vite e Tailwind CSS. O objetivo deste portfólio é demonstrar minhas habilidades e projetos, servindo como uma vitrine profissional para potenciais empregadores e colaboradores.
 
-## Expanding the ESLint configuration
+## Motivação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+A principal motivação para criar este portfólio é ter um espaço único onde possa apresentar meus trabalhos de forma organizada e profissional, além de facilitar o contato com pessoas interessadas em minha área de atuação.
 
-- Configure the top-level `parserOptions` property like this:
+## Visualização do Projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Design no Figma:** [Design no figma](https://www.figma.com/design/d9YIQ93OuZ1SYa5rWUts1w/portfolio?node-id=1-26&t=uQ27WPAD9E8BUw0U-0)
+- **Código Fonte:** [Código no github](https://github.com/MatheusAltraoFSC/Portfolio)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Recomendações para o Projeto
+
+Para melhorar a experiência do usuário e a funcionalidade do portfólio, recomendo:
+
+- **Implementar animações:** Utilizar bibliotecas como Framer Motion para adicionar animações sutis, melhorando a interatividade e o visual do site.
+- **Usar resend no formulário:** Implementar uma funcionalidade de reenvio no formulário de contato para confirmar o recebimento de emails.
+- **Adicionar contato do WhatsApp:** Incluir um link direto para meu WhatsApp, facilitando a comunicação rápida com interessados.
+
+## Contato
+
+- **LinkedIn:** [Conect-se comigo](https://www.linkedin.com/in/matheus-altrao/)
+- **Portfolio Online:** [Acesse aqui](https://www.matheusaltrao.dev/)
+- **GitHub:** [Me siga no github](https://github.com/MatheusAltrao)
